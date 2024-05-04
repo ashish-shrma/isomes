@@ -1,0 +1,143 @@
+@font-face {
+	font-family: tex-gyre-adventor;
+	src: url("../font/tex-gyre-adventor.regular.otf")
+  }
+  body{font-family:tex-gyre-adventor, "tex-gyre-adventor"; width: 100%; margin: 0 auto; padding: 0;float: left; text-transform: capitalize;}
+  header{width: 100%;/* float: left; */position: fixed;background-color: #fff;border-bottom: solid 1px #1b2479;margin: 0;padding: 0;top:0;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);display: flex;align-items: center;justify-content: space-between;padding: 10px 0;}
+  .logo{width: 10%;/* float: left; */margin: 1% 2%;padding: 0;}
+  .logo img{width: 100%; float: left; margin: 0; padding: 0;}
+  .logo-isomes{/* width: 12%; *//* float: right; */margin: 1.5% 2%;padding: 0;text-decoration: none;}
+  .logo-isomes img{width: 100%; float: left; margin: 0; padding: 0;}
+  .logo-isomes a {
+    text-decoration: none;
+    color: #fff;
+    background: #1b2479;
+    padding: 5px 17px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+  
+  
+  .banner{background-image:url("../images/isomes-banner.jpg");background-repeat: no-repeat;width: 100%;height: 750px;top: 0;flex: auto;float: left;background-position: center center;}
+  
+  
+  .banner-form{width: 25%; float: right;background-color: #fff;border-radius: 10px;height: 300px;height: 513px;margin-top: 100px;margin-right: 4%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
+  .form-heading{width: 80%;color: #1b2479;font-size: 16px;margin: 0;padding: 3% 10%;float: left;margin-bottom: 3%; font-weight: bold;text-align: center;}
+  .form-signup{width: 80%;background-color: #1b2479;color: #fff;font-size: 14px;margin: 0;padding: 3% 10%;float: left;margin-bottom: 6%; font-weight: normal;text-align: center;}
+  .form-input-div{width: 80%;float: left;margin: 6px 0;padding: 0 10%;}
+  .input-field{border-radius: 25px;border: solid 1px #fddfe2;background-color:#fff;width: 90%; padding:4% 5%;box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 7px 0 rgba(0, 0, 0, 0.19);color: #4e4e4e;}
+  .select-input-field{width: 100% !important;color: #4e4e4e !important;}
+  .form-submit{width: 100%;background-color: #ea1130;color: #fff;font-size: 20px;margin: 0;padding: 3% 10%;float: left;border-radius: 25px;text-align: center;box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 7px 0 rgba(0, 0, 0, 0.19);font-weight: bold;border: none;}
+  
+  .course-main{width: 100%; float: left;margin:0;background-color:#f3f3f3;margin-top: -6%;}
+  .course-main-box{width: 27%; float: left; margin: 2% 2%;padding: 2% 1%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px;background-color: #fff;}
+  .course-main-row{width: 100%; float: left; margin: 0;padding: 0;}
+  .course-main-box h2{color: #1b2479;font-size: 18px;font-weight: bold;text-align: center;border-bottom: solid 1px #595d85;padding-bottom: 10%;}
+  .course-main-box p{color: #090d35;font-size: 14px;font-weight: noraml;text-align: center}
+  
+  .about-cuet-main{width: 100%; float: left; margin: 0; padding: 0; background-color: #f3f3f3;margin-top:3%;}
+  .about-cuet{width: 80%; float: left; margin: 0 10%; padding: 0;}
+  .about-cuet1{width: 80%; float: left; margin: 0 10%; padding: 0;}
+  .about-cuet h1{font-size: 24px; font-weight: bold; color: #181818;text-align: center; float: left;width: 100%;margin:3% 0;padding: 0; text-decoration: underline;}
+  .about-cuet h2{font-size: 18px; font-weight: normal; color: #1b2479;text-align: center; float: left;width: 100%;margin:1% 0;padding: 0;}
+  .about-cuet h3{font-size: 14px; font-weight: normal; color: #8f909a;text-align: center; float: left;width: 100%;margin:1% 0;padding: 0;}
+  .about-cuet img{width: 15%;margin: 5% 42%;}
+  .about-cuet1 img{width: 34%;margin: 5% 33%;}
+  .arrow1{margin-top: 29px !important;position: absolute;margin-left: -53px;}
+  .about-cuet p{font-size: 14px; font-weight: normal; color: #052711;text-align: center; float: left;width: 100%;margin:0% 0 3% 0;padding: 0;}
+  .about-cuet1 p{font-size: 14px; font-weight: normal; color: #052711;text-align: justify; float: left;width: 100%;margin:0% 0 6% 0;padding: 0;}
+  
+  .stdgallry-main{width: 100%; float: left;margin:0;}
+  .stdgallry-box{width: 19%; float: left; margin: 0 2%;padding: 0;}
+  .stdgallry-box img{width: 100%;margin: 0 20%;}
+  
+  .testimonial-main{width: 100%; float: left;margin: 2% 0;}
+  .testimonial-box{width: 18%; float: left; margin: 2% 2%;padding: 2% 1%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 10px}
+  .testimonial-box img{width: 60%;margin: 0 20%;}
+  .testimonial-box h2{color: #1b2479;font-size: 18px;font-weight: bold;text-align: center}
+  .testimonial-box h3{color: #8f909a;font-size: 14px;font-weight: noraml;text-align: center}
+  .testimonial-box p{color: #090d35;font-size: 14px;font-weight: noraml;text-align: center}
+  
+  .infra-main{width: 100%; float: left;margin: 2% 0 0% 0;background-color:#f3f3f3;}
+  .infra-left{width: 40%;float: left;font-size: 14px;color: #1b2479;margin-right: 2%;}
+  .infra-right{width: 40%;float: right;font-size: 14px;color: #090d35;margin-left: 2%;}
+  .infra-right li{margin-bottom: 2%;}
+  
+  .mocktest-button-main{width: 100%; float: left; margin: 0; padding: 0; background-color: #f3f3f3;}
+  .mocktest-button{width: 26%; margin: 3% 36%; float: left;padding: 1%;color: #fff;background-color: #FD0E12;border-radius: 30px;text-align: center;font-size: 24px;font-weight: bold;}
+  
+  footer{background-color: #242322; width: 100%; float: left; margin: 0; padding:0; text-align: center; color: #6d6d6d; font-size: 14px;}
+  .footer-top{border-bottom: solid 1px #6d6d6d;width: 80%; margin: 0 10%;}
+  .footer-top p{color:#6d6d6d;font-size: 14px;}
+  .footer-top p a{text-decoration: none;color:#6d6d6d;font-size: 14px;}
+  .footer-top p a:hover{text-decoration: underline;color:#FD0E12;font-size: 14px;}
+  
+  
+  
+  @media screen and (min-width: 320px) and (max-width:467px)
+  {
+	  .logo {width: 24%;margin: 1% 2%;/* float: left; */}
+	  .logo-isomes{/* width: 24%; */margin: 1% 2%;float: right;}
+	  .banner-form {width: 90%;float: left;margin: 19% 5%;}
+	  .mocktest-button {width: 60%;margin: 3% 20%;}
+	  .about-cuet img {width: 46%;margin: 5% 27%;}	
+	  .about-cuet1 img {width: 94%;margin: 5% 3%;}
+	  .banner {background-image:none; background-repeat: no-repeat; background-color: #353751;height: 633px;}
+	  .mocktest-button {font-size: 18px;}
+	  .course-main-box {width: 80%;margin: 2% 9%;}
+	  .stdgallry-box {width: 39%;}
+	  .testimonial-box {width: 80%;margin: 2% 9%;}
+	  .infra-left {width: 100%;}
+	  .infra-right {width: 100%;}
+  }
+	  
+  @media screen and (min-width: 468px) and (max-width:767px)
+  {
+	  .logo {width: 24%;margin: 1% 2%;float: left;}
+	  .logo-isomes{width: 24%;margin: 1% 2%;float: right;}
+	  .banner-form {width: 90%;float: left;margin: 19% 5%;}
+	  .mocktest-button {width: 60%;margin: 3% 20%;}
+	  .about-cuet img {width: 46%;margin: 5% 27%;}	
+	  .about-cuet1 img {width: 94%;margin: 5% 3%;}
+	  .banner {background-image:none; background-repeat: no-repeat; background-color: #353751;height: 633px;}
+	  .mocktest-button {font-size: 18px;}
+	  .course-main-box {width: 80%;margin: 2% 9%;}
+	  .stdgallry-box {width: 39%;}
+	  .testimonial-box {width: 80%;margin: 2% 9%;}
+	  .infra-left {width: 100%;}
+	  .infra-right {width: 100%;}
+  }
+  
+  @media screen and (min-width: 768px) and (max-width:1023px)
+  {
+	  .logo {width: 24%;margin: 1% 2%;float: left;}
+	  .logo-isomes{width: 24%;margin: 1% 2%;float: right;}
+	  .banner-form {width: 90%;float: left;margin: 19% 5%;}
+	  .mocktest-button {width: 60%;margin: 3% 20%;}
+	  .about-cuet img {width: 46%;margin: 5% 27%;}	
+	  .about-cuet1 img {width: 94%;margin: 5% 3%;}
+	  .banner {background-image:none; background-repeat: no-repeat; background-color: #353751;height: 633px;}
+	  .mocktest-button {font-size: 18px;}
+	  .course-main-box {width: 80%;margin: 2% 9%;}
+	  .stdgallry-box {width: 39%;}
+	  .testimonial-box {width: 80%;margin: 2% 9%;}
+	  .infra-left {width: 100%;}
+	  .infra-right {width: 100%;}
+  }
+  
+  @media screen and (max-width:1024px)
+  {
+	  .logo {width: 35%;margin: 1% 2%;/* float: left; */}
+	  .logo-isomes{/* width: 24%; *//* margin: 1% 2%; */float: right;}
+	  .banner-form {width: 90%;float: left;margin: 19% 5%;}
+	  .mocktest-button {width: 60%;margin: 3% 20%;}
+	  .about-cuet img {width: 46%;margin: 5% 27%;}	
+	  .about-cuet1 img {width: 94%;margin: 5% 3%;}
+	  .banner {background-image:none; background-repeat: no-repeat; background-color: #353751;height: 633px;}
+	  .mocktest-button {font-size: 18px;}
+	  .course-main-box {width: 80%;margin: 2% 9%;}
+	  .stdgallry-box {width: 39%;}
+	  .testimonial-box {width: 80%;margin: 2% 9%;}
+	  .infra-left {width: 100%;}
+	  .infra-right {width: 100%;}
+  }
